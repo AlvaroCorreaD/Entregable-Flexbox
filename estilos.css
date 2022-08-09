@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.contenedor1 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.encabezado {
+  width: 100%;
+  background-color: rgb(148, 148, 148);
+}
+
+.logo {
+  background-color: rgb(67, 67, 150);
+  width: 10%;
+}
+
+.menu1 {
+  background-color: palegreen;
+  width: 40%;
+}
+
+.menu2 {
+  background-color: darkred;
+  width: 60%;
+}
+
+.contenedor2 {
+  display: flex;
+  flex-direction: row;
+  height: 175px;
+  margin-top: 1mm;
+}
+.izquierda {
+  background-color: black;
+  width: 33.3%;
+  margin: 2.5mm;
+}
+
+.centro {
+  background-color: rgb(50, 131, 163);
+  width: 33.3%;
+  margin: 2.5mm;
+}
+
+.derecha {
+  background-color: orange;
+  width: 33.3%;
+  margin: 2.5mm;
+}
+
+.contenedor3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 175px;
+}
+
+.izquierda2 {
+  background-color: darkgreen;
+  width: 66.6%;
+  margin: 2.5mm;
+}
+
+.derecha2 {
+  background-color: red;
+  width: 33.3%;
+  margin: 2.5mm;
+}
+
+.contenedor4 {
+  display: flex;
+  height: 75px;
+}
+
+.pie {
+  background-color: skyblue;
+  width: 100%;
+  margin: 2.5mm;
+}
+
+.elemento {
+  background-color: rgb(67, 67, 150);
+}
