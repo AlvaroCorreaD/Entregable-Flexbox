@@ -11,26 +11,37 @@ body {
 .encabezado {
   width: 100%;
   background-color: rgb(148, 148, 148);
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
+  padding: 10px;
 }
 
 .logo {
   background-color: rgb(67, 67, 150);
   width: 10%;
+  outline-style: solid;
+  outline-color: black;
 }
 
 .menu1 {
   background-color: palegreen;
   width: 40%;
+  outline-style: solid;
+  outline-color: black;
 }
 
 .menu2 {
   background-color: darkred;
   width: 60%;
+  outline-style: solid;
+  outline-color: black;
 }
 
 .contenedor2 {
   display: flex;
   flex-direction: row;
+  width: 100%;
   height: 175px;
   margin-top: 1mm;
 }
@@ -38,24 +49,37 @@ body {
   background-color: black;
   width: 33.3%;
   margin: 2.5mm;
+  padding: 10px;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
 }
 
 .centro {
   background-color: rgb(50, 131, 163);
   width: 33.3%;
   margin: 2.5mm;
+  padding: 10px;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
 }
 
 .derecha {
   background-color: orange;
   width: 33.3%;
   margin: 2.5mm;
+  padding: 10px;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
 }
 
 .contenedor3 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: 100%;
   height: 175px;
 }
 
@@ -63,16 +87,25 @@ body {
   background-color: darkgreen;
   width: 66.6%;
   margin: 2.5mm;
+  padding: 10px;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
 }
 
 .derecha2 {
   background-color: red;
   width: 33.3%;
   margin: 2.5mm;
+  padding: 10px;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
 }
 
 .contenedor4 {
   display: flex;
+  width: 100%;
   height: 75px;
 }
 
@@ -80,8 +113,15 @@ body {
   background-color: skyblue;
   width: 100%;
   margin: 2.5mm;
+  padding: 10px;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
 }
 
 .elemento {
   background-color: rgb(67, 67, 150);
+  outline-style: solid;
+  outline-color: black;
+  padding: 10px;
 }
