@@ -6,15 +6,17 @@ body {
 .contenedor1 {
   display: flex;
   flex-flow: row wrap;
+  height: 100px;
+  margin-bottom: 2.5mm;
 }
 
 .encabezado {
-  width: 100%;
   background-color: rgb(148, 148, 148);
+  width: 100%;
   outline-style: solid;
   outline-color: black;
   border-radius: 0.5rem;
-  padding: 10px;
+  padding: 20px;
 }
 
 .logo {
@@ -42,14 +44,15 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 175px;
-  margin-top: 1mm;
+  height: 300px;
+  margin-top: 5.5mm;
+  margin-bottom: 3mm;
+  column-gap: 2.5mm;
 }
 .izquierda {
   background-color: black;
   width: 33.3%;
-  margin: 2.5mm;
-  padding: 10px;
+  padding: 20px;
   outline-style: solid;
   outline-color: black;
   border-radius: 0.5rem;
@@ -58,8 +61,7 @@ body {
 .centro {
   background-color: rgb(50, 131, 163);
   width: 33.3%;
-  margin: 2.5mm;
-  padding: 10px;
+  padding: 20px;
   outline-style: solid;
   outline-color: black;
   border-radius: 0.5rem;
@@ -68,8 +70,7 @@ body {
 .derecha {
   background-color: orange;
   width: 33.3%;
-  margin: 2.5mm;
-  padding: 10px;
+  padding: 20px;
   outline-style: solid;
   outline-color: black;
   border-radius: 0.5rem;
@@ -80,14 +81,14 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   width: 100%;
-  height: 175px;
+  height: 300px;
+  column-gap: 2.5mm;
 }
 
 .izquierda2 {
   background-color: darkgreen;
   width: 66.6%;
-  margin: 2.5mm;
-  padding: 10px;
+  padding: 20px;
   outline-style: solid;
   outline-color: black;
   border-radius: 0.5rem;
@@ -96,8 +97,7 @@ body {
 .derecha2 {
   background-color: red;
   width: 33.3%;
-  margin: 2.5mm;
-  padding: 10px;
+  padding: 20px;
   outline-style: solid;
   outline-color: black;
   border-radius: 0.5rem;
@@ -106,14 +106,14 @@ body {
 .contenedor4 {
   display: flex;
   width: 100%;
-  height: 75px;
+  height: 100px;
+  margin-top: 3mm;
 }
 
 .pie {
   background-color: skyblue;
   width: 100%;
-  margin: 2.5mm;
-  padding: 10px;
+  padding: 20px;
   outline-style: solid;
   outline-color: black;
   border-radius: 0.5rem;
